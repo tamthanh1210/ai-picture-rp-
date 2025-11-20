@@ -1,0 +1,8 @@
+{
+  "name": "Copy of ổn nhất (có map, voice )",
+  "description": "Biến sự sáng tạo của bạn thành những bức ảnh lookbook chuyên nghiệp. Tải lên ảnh quần áo, mô tả người mẫu và phong cách mong muốn để tạo ra những bức ảnh thời trang độc đáo.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
