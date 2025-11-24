@@ -212,7 +212,7 @@ export const generateTryOnImage = async (images: { base64: string; mimeType: str
 **Lưu ý quan trọng:** Kết quả cuối cùng phải là MỘT bức ảnh duy nhất, chất lượng cao, trông chuyên nghiệp và chân thực. Không tạo lưới ảnh hoặc trả về văn bản.`;
 
         const response: GenerateContentResponse = await ai.models.generateContent({
-            model: 'gemini-2.5-flash-image',
+            model: 'gemini-2.5-flash',
             contents: {
                 parts: [
                     ...imageParts,
@@ -337,7 +337,7 @@ export const editImage = async (
 
 
         const response: GenerateContentResponse = await ai.models.generateContent({
-            model: 'gemini-2.5-flash-image',
+            model: 'gemini-2.5-flash',
             contents: {
                 parts: parts,
             },
